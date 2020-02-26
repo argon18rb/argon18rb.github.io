@@ -1,0 +1,302 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+  width: 11px;
+}
+
+body::-webkit-scrollbar-track {
+  background-image: linear-gradient(rgb(183, 79, 243), rgb(243, 112, 72));
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.425);
+  border-radius: 6px;
+}
+
+body {
+    background-image: linear-gradient(#A332E4, #D6552C);
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+#bar {
+    position: fixed;
+    height: 100vh;
+    width: 32.5vw;
+    background-color: #FF966E;
+    opacity: 0.4;
+    z-index: -1;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto, auto, auto, auto;
+}
+
+.title {
+    color: white;
+    font-size: 10vw;
+    font-weight: lighter;
+    font-family: 'Source Code Pro', monospace;
+    position: absolute;
+    margin-left: 11vw;
+    margin-top: 5vw;
+}
+
+.lowerTitle {
+    margin-left: 4vw;
+    font-size: 6vw;
+    margin-top: 11vw;   
+}
+
+.ingress {
+    position: absolute;
+    display: inline-block;
+    font-size: 2vw;
+    font-family: 'Source Code Pro', monospace;
+    color: white;
+    margin-left: 10vw;
+    margin-top: 15vw;
+}
+
+.ingress2 {
+    margin-left: 15vw;
+    margin-top: 18vw;
+}
+
+.bubble1 {
+    display: inline-flex;
+    position: relative;
+    height: 25vw;
+    width: 25vw;
+    border-radius: 50%;
+    background-color: #FF966E;
+    margin-top: 170px;
+    margin-left: 20vw;
+}
+
+.bubble2 {
+    display: inline-flex;
+    position: absolute;
+    height: 12vw;
+    width: 12vw;
+    border-radius: 50%;
+    background-color: #FF966E;
+    opacity: 0.4;
+    margin-left: 7vw;
+    margin-top: 2vw;
+}
+
+.bubble3 {
+    display: inline-flex;
+    position: absolute;
+    height: 7vw;
+    width: 7vw;
+    border-radius: 50%;
+    background-color: #FF966E;
+    opacity: 0.2;
+    margin-left: 20vw;
+    margin-top: 10vw;
+}
+
+.bubbleRight {
+    margin-left: 65vw;
+}
+
+.bubbleLeft {
+    margin-top: 4vw;
+    display: inline-block;
+    position: absolute;
+}
+
+.button {
+    background-color: white;
+    font-size: 2.5vw;
+    border-radius: 30vw;
+    width: 17vw;
+    padding: 1vw;
+    border: none;
+    color: #FF966E;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+    margin: 1vw;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background-color:#FF966E;
+    font-size: 2.5vw;
+    border-radius: 30vw;
+    width: 17vw;
+    padding: 1vw;
+    border: none;
+    color: white;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+    margin: 1vw;
+    letter-spacing: 0.2vw;
+}
+
+#buttonHolder {
+    display: inline-block;
+    width: 17vw;
+    margin-left: 15vw;
+    margin-top: 25vw;
+}
+
+.textBg {
+    background-color: white;
+    width: 100vw;
+    height: auto;
+    margin-top: 20vw;
+    padding-bottom: 3vw;
+}
+
+.textContainer {
+    width: 45vw;
+    margin: auto;
+}
+
+.header {
+    color: #FF966E;
+    font-size: 3vw;
+    font-family: 'Source Code Pro', monospace;
+    padding-top: 3vw;   
+}
+
+.text {
+    color: #FF966E;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+    font-size: 1.3vw;
+    line-height: 2.2vw;
+}
+
+.exampleBox {
+    background-color: #ffffff4f;
+    margin-left: 20vw;
+    width: 45vw;
+    height: 15vw;
+    margin-top: 10vw;
+}
+
+.whiteHeader {
+    color: white;
+    margin-left: 5vw;
+    font-size: 2vw;
+}
+
+.list {
+    margin-left: 4vw;
+    color: white;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+    font-size: 1vw;
+}
+
+.listItem {
+    padding: 0.3vw;
+}
+
+.textBgSpace {
+    margin-top: 10vw;
+}
+
+#projectStruc {
+    margin-left: auto;
+    margin-right: auto; 
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+    height: auto;
+}
+
+.whiteText {
+    color: white;
+}
+
+.indent1 {
+    margin-left: 10vw;
+    margin-bottom: 0.5;
+    margin-top: 0.5;
+}
+
+.indent2 {
+    margin-left: 13vw;
+    margin-bottom: 0.5;
+    margin-top: 0.5;
+}
+
+.indent3 {
+    margin-left: 16vw;
+    margin-bottom: 0.5;
+    margin-top: 0.5;
+}
+
+.indent4 {
+    margin-left: 19vw;
+    margin-bottom: 0.5;
+    margin-top: 0.5;
+}
+
+#fixTextDiv2 {
+    padding-top: 5vw;
+    font-size: 1.3vw;
+    line-height: 2.2vw;
+}
+
+#widerText {
+    width: 60vw;
+    margin-top: 20vw;
+    padding-left: 3vw;
+}
+
+#lessPadding {
+    padding-bottom: 1vw;
+}
+
+#smallerTitle {
+    font-size: 2.5vw;
+}
+
+#buttonRound {
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: none;
+    border: none;
+    width: 6vw;
+    height: 6vw;
+    margin-left: 46vw;
+    margin-top: 8vw;
+    transition: 0.4s;
+}
+
+#buttonRound:hover {
+    width: 6.5vw;
+    height: 6.5vw;
+    margin-left: 45.5vw;
+}
+
+.material-icons {
+    font-size: 5vw;
+    color: #D6552C;
+    margin-left: 0.15vw;
+    margin-top: 0.15vw;
+    transition: 0.3s
+}
+
+.material-icons:hover {
+    margin-left: 0.15vw;
+    margin-top: 0.15vw;
+}
+
+.marginAuto {
+    margin-left: 35vw;
+    padding: 2vw;
+}
